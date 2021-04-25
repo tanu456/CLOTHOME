@@ -1,0 +1,20 @@
+doctype html 
+html 
+    head 
+        title CLOTHOME 
+        block scripts 
+        block style
+    body 
+        nav#navbar.top 
+            ul
+                div#logo
+                    img(src="../static/logo1.png", alt="find")
+                    |   CLOTHOME
+                li #[a(href = "/") Home] 
+                li #[a(href = "/") About]
+                li #[a(href = "/contact") Contact Us]
+                li #[a(href = "/") Request a Pickup] 
+                li #[a(href = "/") Locate Us Nearby]
+        block content 
+        footer#foot 
+                | Be a part of our exciting journey | All Rights are reserved

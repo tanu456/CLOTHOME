@@ -1,0 +1,45 @@
+extends base.pug
+block style 
+    style
+        include ../static/style.css
+
+
+block content
+    section#introSection
+        div
+        h1 Welcome to Cloth Donation Camp
+        div
+        h5 Join us in providing basic necessities i.e. clean clothing to less fortunate
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Provide Clothing to Less-Fortunate
+            div.card-box
+                div.card-img
+                    img(src="../static/img1.png", alt="")
+                div.card-content
+                    p We aim to distribute clothes to underpriviliged people.
+
+        div.card
+            h3 Transparent Distribution 
+            div.card-box
+                div.card-img
+                    img(src="../static/img2_.png", alt="")
+                div.card-content
+                    p We ensure transparency between donors and the beneficiary
+        div.card
+            h3 Hussle-free Process for Donors
+            div.card-box
+                div.card-img
+                    img(src="../static/img3.png", alt="")
+                div.card-content
+                    p The process of donation is hassle-free so that everyone can do it easily.
+    section#sponsorSection
+        h2 Our sponsors
+        div.sponsors
+            img(src="../static/sp1.png", alt="")
+            img(src="../static/sp2.png", alt="")
+            img(src="../static/sp3.png", alt="")
+            img(src="../static/sp4.png", alt="")
+
+        
