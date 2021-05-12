@@ -17,7 +17,7 @@ const contactSchema = new mongoose.Schema({
 
   });
 
-  const Contact = mongoose.model('contact', contactSchema);
+const Contact = mongoose.model('contact', contactSchema);
 // EXPRESS SPECIFIC STUFF
 app.use('/static', express.static('static')) // For serving static files
 
